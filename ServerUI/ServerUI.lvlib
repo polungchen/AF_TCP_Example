@@ -4,10 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
-	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Read Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/Read Msg/Read Msg.lvclass"/>
-		<Item Name="Write Msg.lvclass" Type="LVClass" URL="../TCP_Client Messages/Write Msg/Write Msg.lvclass"/>
-	</Item>
-	<Item Name="ClientTestVI.vi" Type="VI" URL="../ClientTestVI.vi"/>
-	<Item Name="TCP_Client.lvclass" Type="LVClass" URL="../TCP_Client/TCP_Client.lvclass"/>
+	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="LaunchServerUI.vi" Type="VI" URL="../LaunchServerUI.vi"/>
+	<Item Name="ServerUI.lvclass" Type="LVClass" URL="../ServerUI/ServerUI.lvclass"/>
 </Library>
