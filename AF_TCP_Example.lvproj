@@ -10,8 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="ClientTestVI.vi" Type="VI" URL="../TCP_Client/ClientTestVI.vi"/>
-		<Item Name="ServerTestVI.vi" Type="VI" URL="../TCP_Server/ServerTestVI.vi"/>
+		<Item Name="ClientUI.lvlib" Type="Library" URL="../ClientUI/ClientUI.lvlib"/>
 		<Item Name="TCP_Client.lvlib" Type="Library" URL="../TCP_Client/TCP_Client.lvlib"/>
 		<Item Name="TCP_Server.lvlib" Type="Library" URL="../TCP_Server/TCP_Server.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -26,6 +25,8 @@
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>

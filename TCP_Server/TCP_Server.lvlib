@@ -5,5 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Abstract Messages for Caller" Type="Folder"/>
 	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="ServerTestVI.vi" Type="VI" URL="../ServerTestVI.vi"/>
 	<Item Name="TCP_Server.lvclass" Type="LVClass" URL="../TCP_Server/TCP_Server.lvclass"/>
 </Library>
